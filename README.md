@@ -6,4 +6,5 @@
     <li>Min</li>
     <li>Max</li>
     <li>Subset</li>
+    <li>Plot</li>
 <ul>

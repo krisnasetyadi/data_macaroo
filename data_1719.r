@@ -22,3 +22,9 @@ maxSalary <- max(macarooData$salary)
 maxSpendingOnFood <- max(macarooData$spending_on_food)
 maxSpendingOnEntertainment <- max(macarooData$spending_on_entertainment)
 print(macarooData)
+
+# filter
+salaryLessThan <- subset(macarooData, salary < 2000)
+ageBeetween <- subset(macarooData, age >= 30, age <= 40)
+plot(macarooData$age, macarooData$salary)
+plot(macarooData$salary, macarooData$spending_on_entertainment)
